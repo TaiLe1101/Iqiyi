@@ -1,0 +1,29 @@
+.wrapper {
+  display: flex;
+  align-items: center;
+  height: 60px;
+  background-color: black;
+}
+
+.inner {
+  padding: 0 64px;
+}
+
+.left {
+  display: flex;
+  flex: 1;
+  align-items: center;
+}
+
+.logo {
+  width: 82px;
+  height: 26px;
+  margin-right: 24px;
+}
+
+.nav {
+  color: var(--text-color);
+  + .nav {
+    margin-left: 24px;
+  }
+}
